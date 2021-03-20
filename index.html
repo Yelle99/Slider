@@ -6,51 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="app.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Slider</title>
   </head>
   <body>
-    <section class="slider">
-        <div class="prvi-red">
-          <img class = "first1 1" src="./Assets/slider-image-1.jpg" alt="" />
-          <img class = "1" src="./Assets/slider-image-2.jpg" alt="" />
-          <img class = "1" src="./Assets/slider-image-3.jpg" alt="" />
-          <img class = "1" src="./Assets/slider-image-4.jpg" alt="" />
-          <img class = "active1 1" src="./Assets/slider-image-5.jpg" alt="" />
-        </div>
-        <div class="drugi-red">
-          <img class = "first 2" src="./Assets/slider-image-6.jpg" alt="" />
-          <img class = "2" src="./Assets/slider-image-7.jpg" alt="" />
-          <img class = "2" src="./Assets/slider-image-8.jpg" alt="" />
-          <img class = "active 2" src="./Assets/slider-image-9.jpg" alt="" />
-        </div>
+    <div class="container">
+      <header></header>
+      <section class="slider">
+          <div class="first-row"> 
+            <img class = "first1 1" src="./Assets/slider-image-8.jpg" alt="" />
+            <img class = "1" src="./Assets/slider-image-9.jpg" alt="" />
+            <img class = "1" src="./Assets/slider-image-6.jpg" alt="" />
+            <img class = "1" src="./Assets/slider-image-7.jpg" alt="" />   
+            <img class = "active1 1" src="./Assets/slider-image-5.jpg" alt="" />
+          </div>
+          <div class="second-row">
+            <img class = "first 2" src="./Assets/slider-image-3.jpg" alt="" />
+            <img class = "2" src="./Assets/slider-image-2.jpg" alt="" />
+            <img class = "2" src="./Assets/slider-image-1.jpg" alt="" />
+            <img class = "active 2" src="./Assets/slider-image-4.jpg" alt="" />           
+          </div>
+      </section>
+
+      <div class="wrap">
         <div class="btns">  
-          <div class="btn-left">
+          <button class="btn-left">
             <div class="border-left">
               <img class = "left" src="./Assets/arrow-gray-left.png" alt="">
             </div>
-          </div>
-          <div class="btn-right">
+          </button>
+          <br />
+          <button class="btn-right">
             <div class="border-right">
               <img class = "right" src="./Assets/arrow-gray-right.png" alt="">
             </div>
-          </div>
+          </button>
+        </div>
 
-    </section>
-    
-    <div class="wrapper">
-      <section class="text">
-        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-          exercitationem voluptatum iusto soluta doloribus aut ratione
-          assumenda, tempora distinctio alias quis, adipisci optio cupiditate,
-          consequuntur illum. Unde, delectus maxime facere earum eveniet vitae
-          quaerat.
-        </p>
-      </section>
+        <div class="text-wrapper">
+          <section class="text">
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              exercitationem voluptatum iusto soluta doloribus aut ratione
+              assumenda, tempora distinctio alias quis, adipisci optio cupiditate,
+              consequuntur illum. Unde, delectus maxime facere earum eveniet vitae
+              quaerat.
+            </p>
+          </section>
+        </div>
+      </div>
+
+
+      <footer></footer>
+
     </div>
+
+    <script src="app.js"></script>
   </body>
+
+  
 </html>
