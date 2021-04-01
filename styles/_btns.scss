@@ -1,0 +1,49 @@
+@mixin btn {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  
+  .btns {
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 1;
+    margin-bottom: 60px;
+  }
+  
+  .btn-left {
+    @include btn;
+    background-image: url('../Assets/arrow-gray-left.png');
+    border: 1px solid #DDDDDD;
+    margin-bottom: 10px;
+  }
+
+  .btn-left:hover {
+    background-image: url('../Assets/arrow-blue-left.png');
+    border: 1px solid #134880;
+  }
+
+  .btn-right {
+    @include btn;
+    background-image: url('../Assets/arrow-gray-right.png');
+    border: 1px solid #DDDDDD;
+  }
+
+  .btn-right:hover {
+    background-image: url('../Assets/arrow-blue-right.png');
+    border: 1px solid #134880;
+  }

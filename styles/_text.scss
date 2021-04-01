@@ -1,0 +1,19 @@
+.text-wrapper {
+    flex: 1;
+    max-width: 300px;
+    margin-left: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+      h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: #134880;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 26px;
+        color: #484a4c;
+        font-weight: 400;
+      } 
+  }

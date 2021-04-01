@@ -1,0 +1,18 @@
+.slider {
+    white-space: nowrap;
+    position: absolute;
+    width: min-content;
+      img {
+        max-height: 200px;
+        border-radius: $border-radius;
+        margin-right: 10px;
+      }
+      .first-row {
+        margin-left: $margin-rows;
+        margin-bottom: 8px;
+      }
+      .second-row {
+        margin-left: $margin-rows;
+        width: min-content;
+      }
+  }

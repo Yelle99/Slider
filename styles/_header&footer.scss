@@ -1,0 +1,18 @@
+header,
+footer {
+  height: 100px;
+  background-color: #dddddd;
+}
+
+header {
+  border-radius: 0px 0px $border-radius $border-radius;
+  margin-bottom: $m-headerfooter;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 940px;
+  border-radius: $border-radius $border-radius 0px 0px;
+  margin-top: $m-headerfooter;
+}
